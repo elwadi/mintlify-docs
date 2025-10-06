@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Agentic Booking Protocol",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#2563eb",
+    "light": "#60a5fa",
+    "dark": "#1e40af"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -14,55 +14,84 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Introduction",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "overview",
+              "use-cases"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Getting Started",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "getting-started/quickstart",
+              "getting-started/integration",
+              "getting-started/sample-payloads"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Key Concepts",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "concepts/product-discovery",
+              "concepts/booking-creation",
+              "concepts/checkout-payment",
+              "concepts/booking-fulfillment"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Production Readiness",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "production/scaling",
+              "production/entitlement",
+              "production/monitoring"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "API Reference",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "API Documentation",
             "pages": [
-              "api-reference/introduction"
+              "api-reference/introduction",
+              "api-reference/json-schema"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Endpoints",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "api-reference/endpoints/search",
+              "api-reference/endpoints/create",
+              "api-reference/endpoints/update",
+              "api-reference/endpoints/cancel",
+              "api-reference/endpoints/webhook"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Resources",
+        "groups": [
+          {
+            "group": "Sample Integrations",
+            "pages": [
+              "resources/examples",
+              "resources/code-snippets",
+              "resources/workflows"
+            ]
+          },
+          {
+            "group": "FAQ & Troubleshooting",
+            "pages": [
+              "resources/faq",
+              "resources/troubleshooting"
+            ]
+          },
+          {
+            "group": "Release Notes",
+            "pages": [
+              "resources/release-notes"
             ]
           }
         ]
@@ -84,20 +113,20 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/abp-light.svg",
+    "dark": "/logo/abp-dark.svg"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@agenticbookingprotocol.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://dashboard.agenticbookingprotocol.com"
     }
   },
   "contextual": {
@@ -114,9 +143,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/agenticbookingprotocol",
+      "github": "https://github.com/agenticbookingprotocol",
+      "linkedin": "https://linkedin.com/company/agenticbookingprotocol"
     }
   }
 }
